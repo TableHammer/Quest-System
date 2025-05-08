@@ -8,15 +8,23 @@
     
 </head>
 <body>
-    <div class="wrapper">
-        <div class="board">        
+    <div class="quest-board">        
             <h1 class="title">Guild Quest Board</h1>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div></div>
+            <div class="quest-container" id="questContainer"></div>
+            <div class="quest-details" id="questDetails">
+                <h2>Quest Details</h2>
+                <div class="detail-content" id="detailContent">
+                    <p>Check your quests</p>
+                </div>
+                <button class="complete-btn" id="completeBtn" disabled>Complete Quest</button>
+            </div>
+
+            <div class="quest-controls">
+                <button id="addQuestBtn">Request a Quest</button>
+                <button id="removeQuestBtn">Remove Incompleted Quest</button>
+            </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html> 
