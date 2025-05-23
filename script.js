@@ -4,4 +4,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const completeBtn = document.getElementById('completeBtn');
     const addQuestBtn = document.getElementById('addQuestBtn');
     const removeQuestBtn = document.getElementById('removeQuestBtn');
+    
 })
